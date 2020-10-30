@@ -1,0 +1,14 @@
+body*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container *{
+padding: 0.2em;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat (4,1fr);
+    grid-template-rows: 100px auto 100px;
+
+}
